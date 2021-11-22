@@ -1,3 +1,6 @@
+function editLink(row) {
+    return <a href={row.id} className="bst-no-select">Edit</a>
+  }
 const alerts = [
     {
         id: 1,

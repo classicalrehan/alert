@@ -16,4 +16,7 @@ code {
 }
 .pl-15{
   padding-left: 15px;
-};
+}
+.card-title.frequencyVolumeTitle {
+  text-transform: capitalize;
+}

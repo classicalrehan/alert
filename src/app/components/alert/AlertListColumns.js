@@ -1,6 +1,7 @@
+
 const columns = [{
     dataField: 'id',
-    text: '#'
+    text: '#',
 }, {
     dataField: 'alertType',
     text: 'Alert Type'

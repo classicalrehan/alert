@@ -1,9 +1,9 @@
 
 import AlertList from '../alert/AlertList';
-import AddUpdateAlert from '../alert/AddUpdateAlert';
 import AdminLTE from 'adminlte-2-react';
 import MainMenu from "../base/Navigation"
 import AddAlert from '../alert/AddAlert';
+import Notfound from '../notfound';
 const sidebar = [
   MainMenu
 ]
@@ -19,8 +19,8 @@ const routing = (
   // </Router>
   <AdminLTE title={["Alert", " Scenarios"]} titleShort={["Alert"]} theme="blue" sidebar={sidebar}>
     <AlertList exact path="/alert" />
-    <AddUpdateAlert exact path="/alert/add" />
-    <AddAlert exact path="/alert/manage" />
+    <AddAlert exact path="/alert/add" />
+    <AddAlert exact path="/alert/edit/:id" />    
   </AdminLTE>
 )
 export default routing;
